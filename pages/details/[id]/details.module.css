@@ -1,0 +1,10 @@
+.cardSection{
+    width: 100vw;
+    display:grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+    border-radius: 2em;
+    padding: 1em;
+    gap:0.5em;
+}

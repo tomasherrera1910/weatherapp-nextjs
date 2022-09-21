@@ -1,0 +1,41 @@
+.dayCard{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.75em 0.5em;
+    border-radius: 1em;
+    max-width: 225px;
+}
+.dayStyle{
+    margin: 8px 0 4px 0;
+    font-size: 24px;
+}
+.tempSection{
+    display: flex;
+    gap: 1em;
+}
+.tempSection h4, .tempSection p{
+    margin: 0 0 0.2em 0;
+}
+.tempSection p{
+    font-size: 12px;
+}
+.tempSection p span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.tempCard{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+.iconSection{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconSection span{
+    position: absolute;
+    bottom: 0;
+    font-size:10px;
+}

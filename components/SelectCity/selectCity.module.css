@@ -1,0 +1,23 @@
+.inputSection{
+    width: 90%;
+    max-width:425px;
+    position: relative;
+  }
+  .inputSection select{
+    font-family: inherit;
+    width: 100%;
+    padding: 1em 0.75em;
+    border-radius: 0.5em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0);
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .inputSection select:focus{
+    transition: ease-in-out .3s;
+    border: 1px solid #095ab1;
+    box-shadow: 0 0 2px 1px #095ab1;
+  }
+  .inputSection select option{
+    font-family: inherit;
+    background-color: #222;
+  }

@@ -5,7 +5,7 @@ const { cityInfo } = styles
 
 export default function NowWeatherCard({ province, notSeeMore }) {
   return (
-    <article className={cityInfo}>
+    <article className={cityInfo} data-cy="card-weather-now">
       <h3>
         <span>{province?.name}</span> {province?.main?.temp}°
       </h3>

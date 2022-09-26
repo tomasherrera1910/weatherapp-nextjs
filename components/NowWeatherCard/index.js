@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import styles from "./NowWeatherCard.module.css"
+import styles from "./nowWeatherCard.module.css"
 const { cityInfo } = styles
 
 export default function NowWeatherCard({ province, notSeeMore }) {

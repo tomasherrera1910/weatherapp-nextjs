@@ -25,7 +25,7 @@ export default function Home({ citiesData }) {
     </>
   )
 }
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const APIkey = process.env.KEY_OPENWEATHERMAP
   const cities = PROVINCIAL_CAPITALS_LIST
   const citiesData = []

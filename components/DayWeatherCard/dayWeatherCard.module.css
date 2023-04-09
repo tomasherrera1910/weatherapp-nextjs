@@ -1,5 +1,7 @@
 .dayCard {
     background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
     padding: 0.75em 0.5em;
     border-radius: 1em;
     width: 225px;
@@ -31,6 +33,8 @@
 
 .tempCard {
     background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     border-radius: 0.5em;
     padding: 0.5em;
 }
@@ -47,4 +51,24 @@
     position: absolute;
     bottom: 0;
     font-size: 10px;
+}
+
+@media (max-width:620px) {
+    .dayCard {
+        padding: 0.25rem 0.5em;
+
+    }
+
+    .tempSection {
+        flex-direction: column;
+        justify-items: center;
+        gap: .25rem;
+    }
+
+    .tempCard {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
 }

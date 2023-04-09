@@ -1,10 +1,12 @@
-.cardSection{
+.cardSection {
     width: 100vw;
-    display:grid;
+    max-width: 1440px;
+    display: grid;
     place-content: center;
     place-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(224px, 1fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     border-radius: 2em;
     padding: 1em;
-    gap:0.5em;
+    gap: 0.5em;
 }
